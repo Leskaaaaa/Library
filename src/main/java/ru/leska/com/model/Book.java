@@ -18,7 +18,7 @@ public class Book {
     private String nameBook;
 
     @NotEmpty(message = "Author should be dont empty")
-    @Size(min = 2, max = 50, message = "Author should to be between 2 and 30 characters")
+    @Size(min = 2, max = 50, message = "Author should to be between 2 and 30 characterss")
     private String author;
 
     @Min(value = 1500, message = "Year should be more 1500")
